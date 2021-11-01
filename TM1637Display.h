@@ -63,6 +63,9 @@ public:
   //! @return the current status of the colon
   bool getColon();
 
+    //! Get the brightness level
+    uint8_t getBrightness();
+
   //! Display arbitrary data on the module
   //!
   //! This function receives raw segment values as input and displays them. The segment data
